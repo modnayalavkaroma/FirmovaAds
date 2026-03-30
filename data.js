@@ -1,12 +1,26 @@
-function Header() {
-  return `
-    <div class="header">
-      <img src="https://img.bellavka.by/b/8/82/822/8223/82231.png">
-      <b>Firmova Ads</b>
-    </div>
-  `;
-}
+const DATA = {
+  banners: [
+    {
+      id: 1,
+      brand: "Lokka",
+      start: "01.02.2026",
+      end: "07.02.2026",
+      orders: 27,
+      banner: "https://via.placeholder.com/300x120"
+    }
+  ],
 
-function Card(content) {
-  return `<div class="card">${content}</div>`;
-}
+  direct: [
+    {
+      id: 1,
+      brand: "Lokka",
+      start: "01.02.2026",
+      end: "07.02.2026",
+      spend: 236,
+      orders: 5
+    }
+  ]
+};
+
+// 👇 обязательно добавить
+window.DATA = DATA;
