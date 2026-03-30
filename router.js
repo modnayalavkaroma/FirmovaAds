@@ -10,7 +10,6 @@ function navigate(route, params = {}) {
   window.currentRoute = { route, params };
   routes[route](params);
 }
-window.navigate = navigate;
 
 /* ===== PAGES ===== */
 
