@@ -22,5 +22,4 @@ const DATA = {
   ]
 };
 
-// 👇 обязательно добавить
 window.DATA = DATA;
